@@ -8,4 +8,6 @@ To foreground a process, simply type "fg." This will wait for the child process 
 
 To support output redirection, use "<*" instead (ex: abc.txt <* -l ls) - this will redirect the output of "-l ls" to "abc.txt."
 
+To list the most recent child processes, type in "listchildprocs." The most recent 20 child processes (commands) will be displayed.
+
 Written in C
