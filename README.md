@@ -10,4 +10,6 @@ To support output redirection, use "<*" instead (ex: abc.txt <* -l ls) - this wi
 
 To list the most recent child processes, type in "listchildprocs." The most recent 20 child processes (commands) will be displayed.
 
+I used execlp() instead of execvp() to better understand how the exec() family of functions works in C - the syntax would be much simpler using execvp()
+
 Written in C
